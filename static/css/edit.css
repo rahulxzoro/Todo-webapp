@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.line,.line1
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.line1
+{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.todo-item label {
+    flex-grow: 1;
+    cursor: pointer;
+}
+.add-todo {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.add-todo input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    /* border: 1px solid #ccc; */ border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 5px;
+    
+}
+
+.add-todo input[type="date"] {
+    padding: 8px;
+    /* border: 1px solid #ccc; */ border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.add-todo button {
+    padding: 8px 16px;
+    background-color: rgb(5, 146, 234);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-todo button:hover {
+    background-color: #45a049;
+}
+
+.e{
+    color: #0bc0e0;
+}
+.d 
+{
+    color: red;
+}
+
+.drop 
+{
+     display: inline-block;
+    margin-left: auto;    
+}
+
+.da {
+ text-align: justify;   
+}
